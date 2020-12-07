@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasAdmissionReason -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasAdmissionReason">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasAge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasAge">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasAutonomyDegree -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasAutonomyDegree">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasBloodPressure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasBloodPressure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasComorbidities -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasComorbidities">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasFecalIncontinence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasFecalIncontinence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasGender -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasGender">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasGlicemia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasGlicemia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasHeartRate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasHeartRate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasHeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasHeight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasInvasiveDevices -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasInvasiveDevices">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasOrigin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasOrigin">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasOstomies -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasOstomies">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasOtherInformation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasOtherInformation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasPreviousHospitalizations -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasPreviousHospitalizations">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasPreviousHospitalizationsReason -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasPreviousHospitalizationsReason">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasPreviousInfection_Colonization -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasPreviousInfection_Colonization">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasSamplingDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasSamplingDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasSaturationO2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasSaturationO2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasTemperature -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasTemperature">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasUrinaryIncontinence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasUrinaryIncontinence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasWeight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasWounds -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#hasWounds">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Bed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Bed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Room"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#ILCU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#ILCU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Unit"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#SU"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Room -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Room"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#SU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#SU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Unit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Unit"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+        <hasAdmissionReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surgery</hasAdmissionReason>
+        <hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69</hasAge>
+        <hasAutonomyDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autonomous</hasAutonomyDegree>
+        <hasBloodPressure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">152/87</hasBloodPressure>
+        <hasComorbidities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes type 2</hasComorbidities>
+        <hasFecalIncontinence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasFecalIncontinence>
+        <hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculin </hasGender>
+        <hasGlicemia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">104</hasGlicemia>
+        <hasHeartRate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51</hasHeartRate>
+        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No answer</hasHeight>
+        <hasInvasiveDevices rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral venous catheter - PRE</hasInvasiveDevices>
+        <hasOrigin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Residence</hasOrigin>
+        <hasOstomies rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasOstomies>
+        <hasOtherInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nothing to mention</hasOtherInformation>
+        <hasPreviousHospitalizations rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasPreviousHospitalizations>
+        <hasPreviousInfection_Colonization rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No answer</hasPreviousInfection_Colonization>
+        <hasSamplingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44102</hasSamplingDate>
+        <hasSaturationO2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">98</hasSaturationO2>
+        <hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36.6</hasTemperature>
+        <hasUrinaryIncontinence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasUrinaryIncontinence>
+        <hasWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No answer</hasWeight>
+        <hasWounds rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasWounds>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Bed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+        <hasAdmissionReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surgery</hasAdmissionReason>
+        <hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44</hasAge>
+        <hasAutonomyDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autonomous</hasAutonomyDegree>
+        <hasBloodPressure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">135/85</hasBloodPressure>
+        <hasComorbidities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasComorbidities>
+        <hasFecalIncontinence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasFecalIncontinence>
+        <hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculin </hasGender>
+        <hasGlicemia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not measured</hasGlicemia>
+        <hasHeartRate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73</hasHeartRate>
+        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No answer</hasHeight>
+        <hasInvasiveDevices rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral venous catheter - PRE</hasInvasiveDevices>
+        <hasOrigin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Residence</hasOrigin>
+        <hasOstomies rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasOstomies>
+        <hasOtherInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nothing to mention</hasOtherInformation>
+        <hasPreviousHospitalizations rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</hasPreviousHospitalizations>
+        <hasPreviousHospitalizationsReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surgeries</hasPreviousHospitalizationsReason>
+        <hasPreviousInfection_Colonization rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No answer</hasPreviousInfection_Colonization>
+        <hasSamplingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44102</hasSamplingDate>
+        <hasSaturationO2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">97</hasSaturationO2>
+        <hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36.8</hasTemperature>
+        <hasUrinaryIncontinence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasUrinaryIncontinence>
+        <hasWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No answer</hasWeight>
+        <hasWounds rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasWounds>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+        <hasAdmissionReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surgery</hasAdmissionReason>
+        <hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22</hasAge>
+        <hasAutonomyDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autonomous</hasAutonomyDegree>
+        <hasBloodPressure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">113/73</hasBloodPressure>
+        <hasComorbidities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasComorbidities>
+        <hasFecalIncontinence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasFecalIncontinence>
+        <hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculin </hasGender>
+        <hasGlicemia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not measured</hasGlicemia>
+        <hasHeartRate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86</hasHeartRate>
+        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.82</hasHeight>
+        <hasInvasiveDevices rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral venous catheter - PRE</hasInvasiveDevices>
+        <hasOrigin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Residence</hasOrigin>
+        <hasOstomies rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasOstomies>
+        <hasOtherInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nothing to mention</hasOtherInformation>
+        <hasPreviousHospitalizations rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasPreviousHospitalizations>
+        <hasPreviousInfection_Colonization rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No answer</hasPreviousInfection_Colonization>
+        <hasSamplingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44102</hasSamplingDate>
+        <hasSaturationO2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">98</hasSaturationO2>
+        <hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36.4</hasTemperature>
+        <hasUrinaryIncontinence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasUrinaryIncontinence>
+        <hasWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85</hasWeight>
+        <hasWounds rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasWounds>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Participant"/>
+        <hasAdmissionReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surgery</hasAdmissionReason>
+        <hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No answer</hasAge>
+        <hasAutonomyDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autonomous</hasAutonomyDegree>
+        <hasBloodPressure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">140/100</hasBloodPressure>
+        <hasComorbidities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasComorbidities>
+        <hasFecalIncontinence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasFecalIncontinence>
+        <hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculin </hasGender>
+        <hasGlicemia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not measured</hasGlicemia>
+        <hasHeartRate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not measured</hasHeartRate>
+        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.82</hasHeight>
+        <hasInvasiveDevices rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral venous catheter - PRE</hasInvasiveDevices>
+        <hasOrigin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Residence</hasOrigin>
+        <hasOstomies rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasOstomies>
+        <hasOtherInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nothing to mention</hasOtherInformation>
+        <hasPreviousHospitalizations rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasPreviousHospitalizations>
+        <hasPreviousInfection_Colonization rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasPreviousInfection_Colonization>
+        <hasSamplingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44102</hasSamplingDate>
+        <hasSaturationO2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not measured</hasSaturationO2>
+        <hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36.9</hasTemperature>
+        <hasUrinaryIncontinence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasUrinaryIncontinence>
+        <hasWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#string">113</hasWeight>
+        <hasWounds rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</hasWounds>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Bed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Bed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rachagouareb/ontologies/2020/11/untitled-ontology-5#Bed"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
